@@ -1,0 +1,20 @@
+{
+  "name": "5.2-project",
+  "version": "1.0.0",
+  "description": "data directory 5.2 project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "directory",
+    "project",
+    "express"
+  ],
+  "author": "Tim Bell",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.3",
+    "mustache-express": "^1.2.4"
+  }
+}
