@@ -1,22 +1,31 @@
 <!DOCTYPE html>
-<html>
+<html lang='en'>
   <head>
     <meta charset="utf-8">
     <title>Directory</title>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="../main.css">
   </head>
   <body>
-
-        <div class="boxContent">
+    <div class="content">
+      <div class='column-3'>
+        <ul class="boxContent">
           {{#users}}
           <li>
+            <a href=/directory/{{id}}>
             <img src="{{avatar}}" alt="picture">
-            <h3> {{name}} </h3>
-            <span> {{job}} {{company}} </span>
+            <p class='name'> {{name}} <p>
+              {{#job}}
+              <p class='job'> {{job}} {{company}} </p>
+              {{/job}}
+              {{^job}}
+              <p class='job employ' > Available for hire </p>
+              {{/job}}
+            </a>
           </li>
           {{/users}}
-        </div>
+        </ul>
       </div>
+    </div>
 
-  
+</body>
 </html>
