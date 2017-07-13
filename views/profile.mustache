@@ -5,8 +5,8 @@
     <title>Profile</title>
     <link rel="stylesheet" href="../main.css">
   </head>
-  <body>
-
+  <body class='profBody'>
+    {{#model}}
     <table class="container">
       <tr>
         <td><img class='profPic' src="{{avatar}}" alt="Profile"></td>
@@ -49,6 +49,6 @@
       </tr>
 
     </table>
-
+{{/model}}
   </body>
 </html>
