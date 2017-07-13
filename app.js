@@ -11,6 +11,7 @@ app.set('view engine', 'mustache');
 
 
 app.get('/directory', roboController.directory);
+
 app.get('/directory/:id', roboController.profile);
 
 
