@@ -15,7 +15,7 @@
   "author": "Tim Bell",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.15.3",
+    "express": "^4.17.3",
     "mustache-express": "^1.2.4"
   }
 }
